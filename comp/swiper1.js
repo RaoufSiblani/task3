@@ -13,10 +13,12 @@ const widgetData = [
   ];
   const Swiper1 = () => {
   return (
+    <div>
       <Swiper
         slidesPerView={4.2}
         spaceBetween={40}
         centeredSlides={false}
+        className="hidden lg:block"
       >
          {widgetData.map((widget, index) => (
             <SwiperSlide>
@@ -28,6 +30,7 @@ const widgetData = [
           </SwiperSlide>
          ))}
       </Swiper>
+      </div>
   );
 };
 
