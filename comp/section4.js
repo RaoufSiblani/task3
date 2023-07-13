@@ -4,7 +4,7 @@ import Swiper1 from "./swiper1";
 const Section4 = () => {
   
   return (
-    <div className="items-center pl-16 py-28 lg:pl-32 bg-maingreen bg-opacity-5">
+    <div className="items-center pl-20 py-28  bg-maingreen bg-opacity-5">
       <h2 className="font-bold text-5xl mt-10 leading-tight text-center pr-16 lg:pr-32">Popular Job Categories</h2>
       <p className="text-3xl text-textgray text-center mt-10 pr-16 lg:pr-32">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non

@@ -1,6 +1,6 @@
 const Section3 = () => {
   return (
-    <div className="px-16 lg:pl-32 my-48 flex flex-col lg:flex-row items-center justify-center">
+    <div className="lg:px-16 px-8 my-48 flex flex-col lg:flex-row items-center justify-center">
       <img src="/images/placeholder.png" className="w-full rounded-xl lg:w-[650px] lg:h-[490px]" alt="Placeholder" />
       <div className="flex flex-col items-center lg:items-start lg:ml-20 lg:mr-32">
         <h2 className="font-bold text-4xl lg:text-5xl mt-10 leading-tight text-center lg:text-left">We will help you to become an employee in your dream company</h2>

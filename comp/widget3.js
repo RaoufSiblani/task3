@@ -1,6 +1,6 @@
 const Wid3 = ({ imageSrc, heading, company }) => {
   return (
-    <div className="bg-white rounded-xl mr-12 w-[580px] h-[670px] pl-10 pr-12 flex flex-col">
+    <div className="bg-white rounded-xl mr-12 lg:w-[580px] lg:min-h-[670px] w-[450px] min-h-[550px] pl-10 pr-12 flex flex-col">
       <img src={imageSrc} className="h-20 w-20 flex mt-10" />
       <h2 className="font-bold text-2xl lg:text-3xl flex pt-10">{heading}</h2>
       <h3 className="font-bold text-lg lg:text-xl text-gray-500 flex pt-5 pb-10">{company}</h3>

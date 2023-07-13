@@ -10,7 +10,8 @@ const Section5 = () => {
   ];
 
   return (
-    <div className="items-center pl-16 py-28 lg:pl-32">
+    <div className="items-center  py-28">
+      <div className="pl-8  lg:pl-32">
       <h2 className="font-bold text-4xl lg:text-5xl mt-10 leading-tight text-center pr-16 lg:pr-32">Recently Added Jobs</h2>
         <p className="text-2xl lg:text-3xl text-textgray text-center mt-10 pr-16 lg:pr-32">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non
@@ -18,7 +19,8 @@ const Section5 = () => {
           auctor sit amet at turpis.
         </p>
         <Swiper2/>
-      <div className="flex justify-center pr-16 lg:pr-32">
+        </div>
+      <div className="flex justify-center w-full ">
         <button className="text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-xl lg:text-2xl">
           <span>View More</span>
         </button>

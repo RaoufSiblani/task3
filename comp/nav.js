@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <nav className="flex font-poppins items-center lg:px-32 py-20 bg-backgray lg:justify-between lg:bg-transparent">
       <div className="items-center flex justify-center w-full lg:w-auto lg:justify-normal">
-        <img src="/images/logo.png" alt="Logo" className="lg:h-11 h-16" />
+        <img src="/images/logo.png" alt="Logo" className="lg:h-16 h-7" />
         <a href="#" className="text-black ml-8 font-semibold text-2xl hidden lg:block">Home</a>
         <a href="#" className="text-black ml-8 font-semibold text-2xl hidden lg:block">Job</a>
         <a href="#" className="text-black ml-8 font-semibold text-2xl hidden lg:block">About Us</a>
@@ -25,7 +25,7 @@ const NavBar = () => {
         </button>
         
       </div>
-      <div className="absolute right-16 items-center w-[55px] h-[45px] lg:hidden">
+      <div className="absolute right-16 items-center w-[45px] h-[35px] lg:hidden">
       <button onClick={handleToggleMenu} className="flex items-center left-full">
           <img src="/images/bar.png" alt="Menu Icon"/>
         </button>
