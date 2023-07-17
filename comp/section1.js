@@ -2,7 +2,7 @@ import NavBar from "@/comp/nav";
 
 const Section1 = () => {
   return (
-    <div className="mb-auto">
+    <div className="mb-auto font-poppins">
       <div className="w-full lg:absolute">
         <NavBar />
       </div>
