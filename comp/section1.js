@@ -16,7 +16,7 @@ const Section1 = () => {
           </p>
         
           <form className="bg-white rounded-xl w-full lg:w-11/12 flex items-center p-2 lg:p-6 mt-6 mb-6 lg:mb-0 container">
-  <div className="flex items-center lg:min-h-[60px] min-h-[40px] bg-lightgray rounded-md flex-grow mr-2 lg:mr-6">
+  <div className="flex items-center lg:min-h-[60px] min-h-[30px] bg-lightgray rounded-md flex-grow mr-2 lg:mr-6">
     <div className="p-2 lg:p-0">
       <img
         className="h-5\4 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
