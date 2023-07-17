@@ -15,11 +15,11 @@ const Section1 = () => {
             lectus tristique auctor sit amet at turpis.
           </p>
         
-          <form className="bg-white rounded-xl w-full lg:w-11/12 flex items-center p-2 lg:p-6 mt-6 mb-6 lg:mb-0 container">
-  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow mr-2 lg:mr-6">
+          <form className="bg-white rounded-xl w-full lg:w-11/12 flex flex-wrap items-center p-2 lg:p-6 mt-6 mb-6 lg:mb-0 container">
+  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow w-full lg:w-auto mb-2 lg:mb-0 lg:mr-2">
     <div className="p-2 lg:p-0">
       <img
-        className="h-5\4 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
+        className="h-5 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
         src="/images/search.png"
         alt="Search Icon"
       />
@@ -30,7 +30,7 @@ const Section1 = () => {
       placeholder="Job title or keyword"
     />
   </div>
-  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow ml-2 lg:ml-6">
+  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow w-full lg:w-auto lg:ml-2 mb-2 lg:mb-0">
     <div className="p-2 lg:p-0">
       <img
         className="h-4 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
@@ -38,7 +38,7 @@ const Section1 = () => {
         alt="Location Icon"
       />
     </div>
-    <select className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl flex-grow focus:outline-none">
+    <select className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl  flex-grow focus:outline-none">
       <option value="">Location</option>
       <option value="Beirut">Beirut</option>
       <option value="Baalbeck">Baalbeck</option>
@@ -48,11 +48,12 @@ const Section1 = () => {
   </div>
   <button
     type="submit"
-    className="bg-maingreen text-white font-bold text-xs lg:text-xl ml-2 lg:ml-6 px-4 lg:px-9 py-2 lg:py-3 rounded-xl"
+    className="bg-maingreen text-white font-bold text-xs lg:text-xl mx-auto py-3 lg:py-2 px-4 lg:px-9 rounded-xl"
   >
     Search
   </button>
 </form>
+
 
         </div>
         <div className="col-span-1 lg:col-span-5 bg-backgray lg:min-h-[925px]">
