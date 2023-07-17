@@ -16,7 +16,7 @@ const Section1 = () => {
           </p>
         
           <form className="bg-white rounded-xl w-full lg:w-11/12 flex items-center p-2 lg:p-6 mt-6 mb-6 lg:mb-0 container">
-  <div className="flex items-center lg:min-h-[60px] min-h-[30px] bg-lightgray rounded-md flex-grow mr-2 lg:mr-6">
+  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow mr-2 lg:mr-6">
     <div className="p-2 lg:p-0">
       <img
         className="h-5\4 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
@@ -26,11 +26,11 @@ const Section1 = () => {
     </div>
     <input
       type="text"
-      className="pl-2 lg:pl-3 bg-transparent text-black text-sm lg:text-xl flex-grow outline-none"
+      className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl flex-grow outline-none"
       placeholder="Job title or keyword"
     />
   </div>
-  <div className="flex items-center lg:min-h-[60px] min-h-[40px] bg-lightgray rounded-md flex-grow ml-2 lg:ml-6">
+  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow ml-2 lg:ml-6">
     <div className="p-2 lg:p-0">
       <img
         className="h-4 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
@@ -38,7 +38,7 @@ const Section1 = () => {
         alt="Location Icon"
       />
     </div>
-    <select className="pl-2 lg:pl-3 bg-transparent text-black text-sm lg:text-xl flex-grow focus:outline-none">
+    <select className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl flex-grow focus:outline-none">
       <option value="">Location</option>
       <option value="Beirut">Beirut</option>
       <option value="Baalbeck">Baalbeck</option>
@@ -48,7 +48,7 @@ const Section1 = () => {
   </div>
   <button
     type="submit"
-    className="bg-maingreen text-white font-bold text-sm lg:text-xl ml-2 lg:ml-6 px-4 lg:px-9 py-2 lg:py-3 rounded-xl"
+    className="bg-maingreen text-white font-bold text-xs lg:text-xl ml-2 lg:ml-6 px-4 lg:px-9 py-2 lg:py-3 rounded-xl"
   >
     Search
   </button>
