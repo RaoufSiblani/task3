@@ -28,7 +28,7 @@ const Swiper1 = () => {
     };
   }, []);
 
-  const slidesPerView = isLargeScreen ? 4.2 : 2;
+  const slidesPerView = isLargeScreen ? 4.2 : 1;
 
   return (
     <div>
