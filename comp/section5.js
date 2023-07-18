@@ -18,7 +18,9 @@ const Section5 = () => {
           orci euismod vestibulum vitae ut ex. Quisque ut arcu at lectus tristique
           auctor sit amet at turpis.
         </p>
+        <div className="w-11/12 lg:mx-auto">
         <Swiper2/>
+        </div>
         </div>
       <div className="flex justify-center w-full ">
         <button className="text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-xl lg:text-2xl">
