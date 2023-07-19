@@ -25,7 +25,7 @@ const Section2 = () => {
   ];
 
   return (
-    <div className="mt-48 w-full px-32">
+    <div className="mt-48 w-full lg:px-16 px-5">
       <h2 className="font-bold text-4xl lg:text-5xl mt-10">How it works</h2>
 
       <div className="flex items-center">
@@ -43,7 +43,7 @@ const Section2 = () => {
         </div>
       </div>
 
-      <div className="grid gap-9 lg:grid-cols-4 md:grid-cols-2">
+      <div className="grid gap-9 lg:grid-cols-4 grid-cols-2">
         {data.map((item, index) => (
           <Wid1
             key={index}

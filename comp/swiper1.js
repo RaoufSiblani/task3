@@ -14,10 +14,12 @@ const widgetData = [
 
 const Swiper1 = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
     const checkWindowSize = () => {
-      setIsLargeScreen(window.innerWidth >= 1020);
+      setIsLargeScreen(window.innerWidth >= 1400);
+      setIsSmallScreen(window.innerWidth >= 1020);
     };
 
     checkWindowSize();
@@ -28,11 +30,12 @@ const Swiper1 = () => {
     };
   }, []);
 
-  const slidesPerView = isLargeScreen ? 4.2 : 1;
+  const slidesPerView = isLargeScreen ? 4.2 : 3;
+  const slidesToShow = isSmallScreen ? slidesPerView : 1;
 
   return (
     <div>
-      <Swiper slidesPerView={slidesPerView} spaceBetween={80} >
+      <Swiper slidesPerView={slidesToShow} spaceBetween={80} >
         {widgetData.map((widget, index) => (
           <SwiperSlide key={index}>
             <Wid2
