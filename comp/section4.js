@@ -11,7 +11,7 @@ const Section4 = () => {
         orci euismod vestibulum vitae ut ex. Quisque ut arcu at lectus tristique
         auctor sit amet at turpis.
       </p>
-      <div className="lg:w-11/12 w-5/12 mx-auto">
+      <div className="lg:w-11/12 w-6/12 mx-auto">
       <Swiper1/>
       </div>
       <div className="flex justify-center mx-16 lg:mx-32">
