@@ -38,7 +38,7 @@ const Section1 = () => {
         alt="Location Icon"
       />
     </div>
-    <select className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl  flex-grow focus:outline-none">
+    <select className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl lg:min-h-[60px] min-h-[20px] flex-grow focus:outline-none">
       <option value="">Location</option>
       <option value="Beirut">Beirut</option>
       <option value="Baalbeck">Baalbeck</option>
