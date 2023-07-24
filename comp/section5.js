@@ -11,7 +11,7 @@ const Section5 = () => {
 
   return (
     <div className="items-center  py-28">
-      <div className="pl-8  lg:pl-32">
+      <div className="pl-4  lg:pl-32">
       <h2 className="font-bold text-4xl lg:text-5xl mt-10 leading-tight text-center pr-16 lg:pr-32">Recently Added Jobs</h2>
         <p className="text-2xl lg:text-3xl text-textgray text-center mt-10 pr-16 lg:pr-32">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non
