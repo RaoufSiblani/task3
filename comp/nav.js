@@ -8,7 +8,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex font-poppins items-center lg:px-32 py-20 bg-backgray lg:justify-between lg:bg-transparent">
+    <nav className="flex font-poppins items-center lg:px-32 lg:py-20 py-8 bg-backgray lg:justify-between lg:bg-transparent">
       <div className="items-center flex justify-center w-full lg:w-auto lg:justify-normal">
         <img src="/images/logo.png" alt="Logo" className="lg:h-16 h-7" />
         <a href="#" className="text-black ml-8 font-semibold text-2xl hidden lg:block">Home</a>
@@ -31,7 +31,7 @@ const NavBar = () => {
         </button>
         </div>
       {isOpen && (
-        <div className="absolute top-40 w-full bg-backgray lg:hidden">
+        <div className="absolute top-20 w-full bg-backgray lg:hidden">
           <ul class="flex flex-col items-center space-y-4">
   <li><a href="#" class="text-black font-semibold text-2xl">Home</a></li>
   <li><a href="#" class="text-black font-semibold text-2xl">Job</a></li>

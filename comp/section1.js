@@ -2,12 +2,12 @@ import NavBar from "@/comp/nav";
 
 const Section1 = () => {
   return (
-    <div className="mb-auto font-poppins">
+    <div className="font-poppins">
       <div className="w-full lg:absolute">
         <NavBar />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-12">
-        <div className="col-span-1 lg:col-span-7 bg-backgray lg:min-h-[925px] justify-center flex flex-col lg:pl-32 px-8 items-center lg:items-start">
+        <div className="col-span-1 lg:col-span-7 lg:bg-backgray bg-white lg:min-h-[925px] justify-center flex flex-col lg:pl-32 px-8 items-center lg:items-start">
           <h2 className=" text-center font-bold text-4xl lg:text-5xl mt-10 lg:text-left">Search, Find, & Apply</h2>
           <p className="text-center text-lg lg:text-2xl w-9/12 my-14 lg:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
@@ -26,11 +26,11 @@ const Section1 = () => {
     </div>
     <input
       type="text"
-      className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl flex-grow outline-none"
+      className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-lg flex-grow outline-none"
       placeholder="Job title or keyword"
     />
   </div>
-  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow w-full lg:w-auto lg:ml-2 mb-2 lg:mb-0">
+  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow w-full lg:w-auto lg:mx-2 mb-2 lg:mb-0">
     <div className="p-2 lg:p-0">
       <img
         className="h-4 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
@@ -38,7 +38,7 @@ const Section1 = () => {
         alt="Location Icon"
       />
     </div>
-    <select className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-xl lg:min-h-[60px] min-h-[20px] flex-grow focus:outline-none">
+    <select className="pl-2 lg:pl-3  bg-transparent text-black text-xs lg:text-lg lg:min-h-[60px] min-h-[20px] flex-grow focus:outline-none">
       <option value="">Location</option>
       <option value="Beirut">Beirut</option>
       <option value="Baalbeck">Baalbeck</option>
