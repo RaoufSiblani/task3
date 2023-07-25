@@ -23,7 +23,7 @@ const Section5 = () => {
         </div>
         </div>
       <div className="flex justify-center w-full ">
-        <button className="text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-xl lg:text-2xl">
+      <button className="text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-xl lg:text-2xl hover:bg-maingreen hover:text-white hover:border-white transition-colors">
           <span>View More</span>
         </button>
       </div>

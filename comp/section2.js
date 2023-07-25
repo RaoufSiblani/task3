@@ -37,7 +37,7 @@ const Section2 = () => {
           </p>
         </div>
         <div className="hidden justify-end flex-grow lg:flex">
-          <button className="bg-white text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-2xl lg:text-3xl items-center">
+        <button className="bg-white text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-2xl lg:text-3xl items-center hover:bg-maingreen hover:text-white hover:border-white transition-colors">
             <span>Learn More</span>
           </button>
         </div>
@@ -55,7 +55,7 @@ const Section2 = () => {
       </div>
 
       <div className="flex justify-center flex-grow py-5 lg:hidden">
-        <button className="bg-white text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-2xl lg:text-3xl items-center">
+      <button className="bg-white text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-2xl lg:text-3xl items-center hover:bg-maingreen hover:text-white hover:border-white transition-colors">
           <span>Learn More</span>
         </button>
       </div>

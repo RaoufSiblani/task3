@@ -11,9 +11,7 @@ const Section7 = () => { return (
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus
             non orci euismod vestibulum vitae ut ex.
           </p>
-          <button
-            className=" border border-white px-4 py-3 rounded-xl font-bold text-lg lg:text-2xl lg:my-10 my-5"
-          >
+          <button className="border border-white px-4 py-3 rounded-xl font-bold text-lg lg:text-2xl lg:my-10 my-5 hover:bg-white hover:text-black transition-colors">
             <span>Register Now</span>
           </button>
         </div>

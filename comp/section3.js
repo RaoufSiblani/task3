@@ -12,7 +12,7 @@ const Section3 = () => {
           </p>
         </div>
         <div className="flex flex-grow">
-          <button className="bg-white text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-xl lg:text-2xl items-center">
+        <button className="bg-white text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-xl lg:text-2xl items-center hover:bg-maingreen hover:text-white hover:border-white transition-colors">
             <span>Learn More</span>
           </button>
         </div>

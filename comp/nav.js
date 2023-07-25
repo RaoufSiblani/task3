@@ -21,7 +21,7 @@ const NavBar = () => {
       
       <div className="items-center hidden xl:flex">
         <a href="#" className="text-white font-semibold text-xl mr-16">Sign In</a>
-        <button className="bg-white text-black px-7 py-4 rounded-xl font-bold text-xl inline-flex items-center">
+        <button className="bg-white text-black px-7 py-4 rounded-xl font-bold text-xl inline-flex items-center border border-maingreen hover:bg-maingreen hover:text-white hover:border-white transition-colors">
           <img src="/images/signup.png" className="mr-4 h-8" alt="Sign Up" />
           <span>Create Account</span>
         </button>

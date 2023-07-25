@@ -15,7 +15,7 @@ const Section4 = () => {
       <Swiper1/>
       </div>
       <div className="flex justify-center mx-16 lg:mx-32">
-        <button className="bg-maingreen bg-opacity-5 text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-2xl">
+      <button className="bg-maingreen bg-opacity-5 text-maingreen border border-maingreen px-7 py-4 rounded-xl font-bold text-2xl hover:bg-maingreen hover:text-white transition-colors">
           <span>View More</span>
         </button>
       </div>
