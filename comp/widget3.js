@@ -10,11 +10,11 @@ const Wid3 = ({ imageSrc, heading, company }) => {
       <div className="flex my-10">
         <div className="bg-backgray flex items-center mr-2 p-2 rounded-xl">
           <img src="/images/location.png" className="h-8 w-7 mr-3"/>
-          <p className="text-sm lg:text-base">San Fransisco, CA</p>
+          <p className="text-xs lg:text-base">San Fransisco, CA</p>
         </div>
         <div className="bg-backgray flex items-center mr-2 p-2 rounded-xl">
           <img src="/images/bag.png" className="w-7 h-8 mr-3" />
-          <p className="text-sm lg:text-base">Full Time</p>
+          <p className="text-xs lg:text-base">Full Time</p>
         </div>
       </div>
       <p className="text-maingreen text-xl lg:text-2xl pb-2">Apply Now &gt;</p>
