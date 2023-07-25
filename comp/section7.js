@@ -19,8 +19,8 @@ const Section7 = () => { return (
         </div>
       </div>
       <div className="w-full pt-28 ">
-  <div className="grid grid-cols-6 bg-maingreen py-32 lg:hidden px-[8.3333%] items-center">
-    <div className="col-span-5 mt-10">
+  <div className="grid grid-cols-12 bg-maingreen py-32 lg:hidden px-[8.3333%] items-center">
+    <div className="col-span-9 mt-10">
       <a href="/">
         <img src="/images/logow.png" alt="Logo" className="h-9" />
       </a>
@@ -42,7 +42,7 @@ const Section7 = () => { return (
         <a><img src="/images/linkedin.png" alt="linkedin" className="pr-2 h-7"/> </a>
       </div>
     </div>
-    <div className="col-span-1 flex items-center pt-12">
+    <div className="col-span-3 flex items-center pt-12">
       <ul>
         <li className="text-xl font-bold mb-3">
           <h3>Pages</h3>
