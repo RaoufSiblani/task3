@@ -20,7 +20,7 @@ const Section1 = () => {
   <div className="flex items-center bg-lightgray rounded-md xl:py-3">
     <div className="p-2 xl:p-0">
       <img
-        className="h-5 xl:h-5 pl-1 bg-center bg-no-repeat"
+        className="h-3 xl:h-5 pl-1 bg-center bg-no-repeat"
         src="/images/search.png"
         alt="Search Icon"
       />
@@ -34,7 +34,7 @@ const Section1 = () => {
   <div className="flex items-center justify-start bg-lightgray rounded-md lg:mx-2.5 mx-1 xl:py-3">
     <div className="p-2 xl:p-0">
       <img
-        className="h-4 xl:h-6 pl-1 bg-center bg-no-repeat"
+        className="h-3 xl:h-6 pl-1 bg-center bg-no-repeat"
         src="/images/location.png"
         alt="Location Icon"
       />

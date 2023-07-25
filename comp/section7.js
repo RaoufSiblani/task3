@@ -36,10 +36,10 @@ const Section7 = () => { return (
       </ul>
       <h3 className="text-xl font-bold pt-16">Contact Us</h3>
       <div className="inline-flex mt-3">
-        <a><img src="/images/google.png" alt="google" className="pr-2 h-12"/> </a>
-        <a><img src="/images/facebook.png" alt="facebook" className="pr-2 h-12"/> </a>
-        <a><img src="/images/twitter.png" alt="twitter" className="pr-2 h-12"/> </a>
-        <a><img src="/images/linkedin.png" alt="linkedin" className="pr-2 h-12"/> </a>
+        <a><img src="/images/google.png" alt="google" className="pr-2 h-7"/> </a>
+        <a><img src="/images/facebook.png" alt="facebook" className="pr-2 h-7"/> </a>
+        <a><img src="/images/twitter.png" alt="twitter" className="pr-2 h-7"/> </a>
+        <a><img src="/images/linkedin.png" alt="linkedin" className="pr-2 h-7"/> </a>
       </div>
     </div>
     <div className="col-span-1 flex items-center pt-12">
