@@ -29,8 +29,8 @@ const Section6 = () => {
             <h3 className="text-xl font-bold lg:text-3xl  text-center lg:text-left mt-10">Brown Garcia</h3>
             <p className="text-lg lg:text-2xl text-textgray text-center lg:text-left mt-10 ">Full Stack Developer in XReact Tech</p>
             <div className="flex justify-center items-center my-5">
-                <img src="/images/arow.png" className=" bg-textgray rounded-full transform rotate-180 mx-3"/>
-                <img src="/images/arow.png" className=" bg-maingreen rounded-full mx-3"/>
+                <img src="/images/arow.png" className=" bg-textgray w-10 lg:w-16 rounded-full transform rotate-180 mx-3"/>
+                <img src="/images/arow.png" className=" bg-maingreen w-10 lg:w-16 rounded-full mx-3"/>
             </div>
             </div>
         </div>
