@@ -17,7 +17,7 @@ const Section7 = () => {
                 <div className="grid grid-cols-4 w-full bg-maingreen py-28 lg:hidden"> 
                 
                 </div>
-                <div className="grid grid-cols-12 w-full bg-maingreen py-28 lg:hidden"> 
+                <div className="lg:grid grid-cols-12 w-full bg-maingreen py-28 hidden"> 
                 
                 </div>
             </div>
