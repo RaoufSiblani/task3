@@ -42,7 +42,7 @@ const Section7 = () => { return (
         <a><img src="/images/linkedin.png" alt="linkedin" className="pr-2 h-7"/> </a>
       </div>
     </div>
-    <div className="col-span-3 flex items-center pt-12">
+    <div className="col-span-3 flex items-center pt-28">
       <ul>
         <li className="text-xl font-bold mb-3">
           <h3>Pages</h3>
