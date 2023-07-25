@@ -69,7 +69,7 @@ const Section7 = () => { return (
     </div>
   </div>
   <div className="lg:grid grid-cols-12 bg-maingreen py-32 px-[8.3333%] hidden ">
-    <div className=" col-span-4 mt-32 pr-48">
+    <div className=" col-span-4 mt-40 pr-48">
     <a href="/">
         <img src="/images/logow.png" alt="Logo" className=" w-3/4" />
       </a>
@@ -77,7 +77,7 @@ const Section7 = () => { return (
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat facilisis nibh vel faucibus.
       </p>
     </div>
-    <div className=" col-span-4 mt-36 pr-48">
+    <div className=" col-span-4 mt-32 pr-48">
     <h3 className="text-3xl font-bold">Company</h3>
       <ul className="text-lg mt-3">
         <li>Address: 123 Fifth Avenue, New York - 1060, USA.</li>
