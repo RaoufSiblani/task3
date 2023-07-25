@@ -27,7 +27,7 @@ const Section1 = () => {
     </div>
     <input
       type="text"
-      className="pl-2 xl:pl-3 bg-transparent text-black text-xs xl:text-lg  outline-none"
+      className="pl-1 xl:pl-3 bg-transparent text-black text-xs xl:text-lg  outline-none"
       placeholder="Job title or keyword"
     />
   </div>
@@ -39,7 +39,7 @@ const Section1 = () => {
         alt="Location Icon"
       />
     </div>
-    <select className="pl-2 xl:pl-3  bg-transparent text-black text-xs xl:text-xl focus:outline-none">
+    <select className="pl-1 xl:pl-3  bg-transparent text-black text-xs xl:text-xl focus:outline-none">
       <option value="">Location</option>
       <option value="Beirut">Beirut</option>
       <option value="Baalbeck">Baalbeck</option>
@@ -49,7 +49,7 @@ const Section1 = () => {
   </div>
   <button
     type="submit"
-    className="bg-maingreen text-white font-bold text-xs xl:text-xl py-3 xl:py-2 px-4 xl:px-9 rounded-xl "
+    className="bg-maingreen text-white font-bold text-xs xl:text-xl py-3  xl:py-2 px-2 xl:px-9 rounded-xl "
   >
     Search
   </button>
