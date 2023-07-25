@@ -28,7 +28,7 @@ const Section7 = () => { return (
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consequat facilisis nibh vel faucibus.
       </p>
       <h3 className="text-xl font-bold pt-16">Company</h3>
-      <ul className="text-sm mt-3">
+      <ul className="text-xs mt-3">
         <li>Address: 123 Fifth Avenue, New York - 1060, USA.</li>
         <li>Call Us : +(1600) 456 7890</li>
         <li>Email : yourid@example.com</li>
@@ -47,22 +47,22 @@ const Section7 = () => { return (
         <li className="text-xl font-bold mb-3">
           <h3>Pages</h3>
         </li>
-        <li className="text-sm">
+        <li className="text-xs">
           <a href="/">&gt; Home</a>
         </li>
-        <li className="text-sm">
+        <li className="text-xs">
           <a href="/">&gt; Booking</a>
         </li>
-        <li className="text-sm">
+        <li className="text-xs">
           <a href="/">&gt; Facilities</a>
         </li>
-        <li className="text-sm">
+        <li className="text-xs">
           <a href="/">&gt; About Us</a>
         </li>
-        <li className="text-sm">
+        <li className="text-xs">
           <a href="/">&gt; Location</a>
         </li>
-        <li className="text-sm">
+        <li className="text-xs">
           <a href="/">&gt; Contact</a>
         </li>
       </ul>
