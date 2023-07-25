@@ -7,7 +7,7 @@ const Section1 = () => {
         <NavBar />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-12">
-        <div className="col-span-1 lg:col-span-7 lg:bg-backgray bg-white lg:min-h-[925px] justify-center flex flex-col lg:pl-32 px-8 items-center lg:items-start">
+        <div className="col-span-1 lg:col-span-7 lg:bg-backgray bg-lightgray lg:min-h-[925px] justify-center flex flex-col lg:pl-32 px-8 items-center lg:items-start">
           <h2 className=" text-center font-bold text-4xl lg:text-5xl mt-10 lg:text-left">Search, Find, & Apply</h2>
           <p className="text-center text-lg lg:text-2xl w-9/12 my-14 lg:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
@@ -15,8 +15,9 @@ const Section1 = () => {
             lectus tristique auctor sit amet at turpis.
           </p>
         
-          <form className="bg-white rounded-xl w-full lg:w-11/12 flex flex-wrap items-center p-2 lg:p-6 mt-6 mb-6 lg:mb-0 container">
-  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow w-full lg:w-auto mb-2 lg:mb-0 lg:mr-2">
+          <form >
+            <div className="bg-white rounded-xl inline-flex  items-center p-2 lg:p-6 mt-6 mb-6 justify-between ">
+  <div className="flex items-center bg-lightgray rounded-md lg:py-3">
     <div className="p-2 lg:p-0">
       <img
         className="h-5 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
@@ -26,11 +27,11 @@ const Section1 = () => {
     </div>
     <input
       type="text"
-      className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-lg flex-grow outline-none"
+      className="pl-2 lg:pl-3 bg-transparent text-black text-xs lg:text-lg  outline-none"
       placeholder="Job title or keyword"
     />
   </div>
-  <div className="flex items-center lg:min-h-[60px] min-h-[20px] bg-lightgray rounded-md flex-grow w-full lg:w-auto lg:mx-2 mb-2 lg:mb-0">
+  <div className="flex items-center justify-start bg-lightgray rounded-md mx-2.5 lg:py-3">
     <div className="p-2 lg:p-0">
       <img
         className="h-4 w-4 lg:h-6 lg:w-6 bg-center bg-no-repeat"
@@ -38,7 +39,7 @@ const Section1 = () => {
         alt="Location Icon"
       />
     </div>
-    <select className="pl-2 lg:pl-3  bg-transparent text-black text-xs lg:text-lg lg:min-h-[60px] min-h-[20px] flex-grow focus:outline-none">
+    <select className="pl-2 lg:pl-3  bg-transparent text-black text-xs lg:text-xl focus:outline-none">
       <option value="">Location</option>
       <option value="Beirut">Beirut</option>
       <option value="Baalbeck">Baalbeck</option>
@@ -48,10 +49,11 @@ const Section1 = () => {
   </div>
   <button
     type="submit"
-    className="bg-maingreen text-white font-bold text-xs lg:text-xl mx-auto py-3 lg:py-2 px-4 lg:px-9 rounded-xl"
+    className="bg-maingreen text-white font-bold text-xs lg:text-xl py-3 lg:py-2 px-4 lg:px-9 rounded-xl "
   >
     Search
   </button>
+  </div>
 </form>
 
 

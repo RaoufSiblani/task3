@@ -13,10 +13,11 @@ const widgetData = [
 const Swiper2 = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(false);
-
+  const [isMidScreen, setIsMidScreen] = useState(false);
   useEffect(() => {
     const checkWindowSize = () => {
-      setIsLargeScreen(window.innerWidth >= 1740);
+      setIsLargeScreen(window.innerWidth >= 1840);
+      setIsMidScreen(window.innerWidth >= 1560);
       setIsSmallScreen(window.innerWidth >= 1020);
     };
 
@@ -28,8 +29,9 @@ const Swiper2 = () => {
     };
   }, []);
 
-  const slidesPerView = isLargeScreen ? 2.7 : 1.4;
-  const slidesToShow = isSmallScreen ? slidesPerView : 1;
+  const slidesPerView = isLargeScreen ? 2.7 : 2.3;
+  const SlidesOnScreen = isMidScreen ? slidesPerView :1.7;
+  const slidesToShow = isSmallScreen ? SlidesOnScreen : 1;
 
 
   return (
