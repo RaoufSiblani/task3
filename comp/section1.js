@@ -7,7 +7,7 @@ const Section1 = () => {
         <NavBar />
       </div>
       <div className="grid grid-cols-1 xl:grid-cols-12">
-        <div className="col-span-1 xl:col-span-7 xl:bg-backgray bg-lightgray xl:min-h-[925px] justify-center flex flex-col xl:pl-32 px-8 items-center xl:items-start">
+        <div className="col-span-1 xl:col-span-7 xl:bg-backgray bg-lightgray xl:min-h-[925px] justify-center flex flex-col xl:pl-20 px-8 items-center xl:items-start">
           <h2 className=" text-center font-bold text-4xl xl:text-5xl mt-10 xl:text-left">Search, Find, & Apply</h2>
           <p className="text-center text-lg xl:text-2xl w-9/12 my-14 xl:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
@@ -20,7 +20,7 @@ const Section1 = () => {
   <div className="flex items-center bg-lightgray rounded-md xl:py-3">
     <div className="p-2 xl:p-0">
       <img
-        className="h-5 w-4 xl:h-6 xl:w-6 bg-center bg-no-repeat"
+        className="h-5 xl:h-5 pl-1 bg-center bg-no-repeat"
         src="/images/search.png"
         alt="Search Icon"
       />
@@ -34,12 +34,12 @@ const Section1 = () => {
   <div className="flex items-center justify-start bg-lightgray rounded-md lg:mx-2.5 mx-1 xl:py-3">
     <div className="p-2 xl:p-0">
       <img
-        className="h-4 w-4 xl:h-6 xl:w-6 bg-center bg-no-repeat"
+        className="h-4 xl:h-6 pl-1 bg-center bg-no-repeat"
         src="/images/location.png"
         alt="Location Icon"
       />
     </div>
-    <select className="pl-1 xl:pl-3  bg-transparent text-black text-xs xl:text-xl focus:outline-none">
+    <select className="px-1 xl:px-3  bg-transparent text-black text-xs xl:text-xl focus:outline-none">
       <option value="">Location</option>
       <option value="Beirut">Beirut</option>
       <option value="Baalbeck">Baalbeck</option>
@@ -49,7 +49,7 @@ const Section1 = () => {
   </div>
   <button
     type="submit"
-    className="bg-maingreen text-white font-bold text-xs xl:text-xl py-3  xl:py-2 px-2 xl:px-9 rounded-xl "
+    className="bg-maingreen text-white font-bold text-xs xl:text-xl py-2  xl:py-3 px-2 xl:px-9 rounded-xl "
   >
     Search
   </button>

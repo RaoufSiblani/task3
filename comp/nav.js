@@ -8,13 +8,15 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex font-poppins items-center xl:px-32 xl:py-20 py-8 bg-backgray xl:justify-between xl:bg-transparent">
+    <nav className="flex font-poppins items-center xl:px-20 xl:py-20 py-8 bg-backgray xl:justify-between xl:bg-transparent">
       <div className="items-center flex justify-center w-full xl:w-7/12 xl:justify-between">
-        <img src="/images/logo.png" alt="Logo" className="xl:h-16 h-7" />
-        <a href="#" className="text-black font-semibold text-2xl hidden xl:block">Home</a>
-        <a href="#" className="text-black font-semibold text-2xl hidden xl:block">Job</a>
-        <a href="#" className="text-black font-semibold text-2xl hidden xl:block">About Us</a>
-        <a href="#" className="text-black font-semibold text-2xl hidden xl:block">Contact</a>
+      <a href="/">
+  <img src="/images/logo.png" alt="Logo" className="xl:h-16 h-7" />
+</a>
+        <a href="#" className="text-black font-semibold text-xl hidden xl:block">Home</a>
+        <a href="#" className="text-black font-semibold text-xl hidden xl:block">Job</a>
+        <a href="#" className="text-black font-semibold text-xl hidden xl:block">About Us</a>
+        <a href="#" className="text-black font-semibold text-xl hidden xl:block">Contact</a>
       </div>
       
       <div className="items-center hidden xl:flex">
