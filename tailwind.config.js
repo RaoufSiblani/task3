@@ -18,6 +18,7 @@ module.exports = {
         backgray: '#f2f2f2',
         lightgray: '#f9f9f9',
         textgray: '#8A8A8A',
+        footergreen: '#003A2C',
       },
       borderRadius: {
         'bl-500': '0px 0px 0px 100px',
