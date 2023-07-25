@@ -31,7 +31,7 @@ const Section1 = () => {
       placeholder="Job title or keyword"
     />
   </div>
-  <div className="flex items-center justify-start bg-lightgray rounded-md mx-2.5 xl:py-3">
+  <div className="flex items-center justify-start bg-lightgray rounded-md lg:mx-2.5 mx-1 xl:py-3">
     <div className="p-2 xl:p-0">
       <img
         className="h-4 w-4 xl:h-6 xl:w-6 bg-center bg-no-repeat"
