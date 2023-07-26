@@ -7,7 +7,7 @@ const Section1 = () => {
         <NavBar />
       </div>
       <div className="grid grid-cols-1 xl:grid-cols-12">
-        <div className="col-span-1 xl:col-span-7 xl:bg-backgray bg-lightgray xl:min-h-[925px] justify-center flex flex-col xl:pl-20 px-8 items-center xl:items-start">
+        <div className="col-span-1 xl:col-span-7 xl:bg-backgray bg-lightgray xl:min-h-[825px] justify-center flex flex-col xl:pl-20 px-8 items-center xl:items-start">
           <h2 className=" text-center font-bold text-4xl xl:text-5xl mt-10 xl:text-left">Search, Find, & Apply</h2>
           <p className="text-center text-lg xl:text-2xl w-9/12 my-14 xl:text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
@@ -58,7 +58,7 @@ const Section1 = () => {
 
 
         </div>
-        <div className="col-span-1 xl:col-span-5 bg-backgray xl:min-h-[925px]">
+        <div className="col-span-1 xl:col-span-5 bg-backgray xl:min-h-[825px]">
           <div className="bg-maingreen xl:rounded-bl-500 h-full py-10 xl:py-0 flex flex-col justify-center">
             <div className="flex justify-start pl-24 mb-14">
               <img src="/images/top1.png" alt="Image 1" className="transform -rotate-3" />
