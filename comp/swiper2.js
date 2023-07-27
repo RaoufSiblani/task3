@@ -35,7 +35,7 @@ const Swiper2 = () => {
 
 
   return (
-    <div  className="lg:py-5">
+    <div  className="py-10">
     <Swiper slidesPerView={slidesToShow} spaceBetween={40}>
       {widgetData.map((widget, index) => (
         <SwiperSlide key={index}>
