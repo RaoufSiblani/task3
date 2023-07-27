@@ -18,9 +18,6 @@ select{
   border: none;
   outline: none;
 }
-.swiper {
-  width: 100%;
-  height: 100%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+.split-background {
+  background: linear-gradient(to right, #f2f2f2 50%, #00cc99 50%);
 }

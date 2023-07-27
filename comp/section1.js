@@ -2,7 +2,8 @@ import NavBar from "@/comp/nav";
 
 const Section1 = () => {
   return (
-    <div className="font-poppins ">
+    <div className="font-poppins split-background">
+      <div className="2xl:container 2xl:mx-auto">
       <div className="w-full xl:absolute">
         <NavBar />
       </div>
@@ -71,6 +72,7 @@ const Section1 = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
