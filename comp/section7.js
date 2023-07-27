@@ -1,7 +1,7 @@
 const Section7 = () => { return (
-    <div className="text-white 2xl:container 2xl:mx-auto">
+    <div className="text-white">
       <div
-        className="absolute left-[16.666666%] top-auto bg-footergreen rounded-xl w-8/12 z-20 2xl:container"
+        className="absolute left-[16.666666%] top-auto bg-footergreen rounded-xl w-8/12 z-20 "
       >
         <div className="flex flex-col justify-center items-center">
           <h3
@@ -66,7 +66,8 @@ const Section7 = () => { return (
       </ul>
     </div>
   </div>
-  <div className="lg:grid grid-cols-12 bg-maingreen py-32 px-[8.3333%] hidden ">
+  <div className=" bg-maingreen">
+  <div className="lg:grid grid-cols-12  py-32 px-[8.3333%] hidden 2xl:container 2xl:mx-auto">
     <div className=" col-span-4 mt-40 pr-48">
     <a href="/">
         <img src="/images/logow.png" alt="Logo" className=" w-3/4" />
@@ -118,6 +119,7 @@ const Section7 = () => { return (
         <a><img src="/images/linkedin.png" alt="linkedin" className="pr-2 h-10"/> </a>
       </div>
     </div>
+  </div>
   </div>
 </div>
     </div>
