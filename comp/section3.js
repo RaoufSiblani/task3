@@ -1,6 +1,6 @@
 const Section3 = () => {
   return (
-    <div className="lg:px-14 px-8 lg:py-48 py-10 grid grid-cols-12 items-center justify-center">
+    <div className="lg:px-14 px-8 lg:py-48 py-10 grid grid-cols-12 items-center justify-center 2xl:container">
       <div className=" lg:col-span-5 col-span-12">
       <img src="/images/placeholder.png" className="w-full rounded-xl mx-auto max-w-xl" alt="Placeholder" />
       </div>

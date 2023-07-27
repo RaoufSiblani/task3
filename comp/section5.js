@@ -10,7 +10,7 @@ const Section5 = () => {
   ];
 
   return (
-    <div className="items-center  lg:py-28 py-12">
+    <div className="items-center  lg:py-28 py-12 2xl:container">
       <div className="px-4 ">
       <h2 className="font-bold text-4xl lg:text-5xl mt-10 leading-tight text-center lg:px-32">Recently Added Jobs</h2>
         <p className="text-lg lg:text-3xl text-textgray text-center mt-10 px-16 lg:px-64">

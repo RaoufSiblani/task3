@@ -1,6 +1,6 @@
 const Section6 = () => {
     return (
-        <div className="lg:px-32 px-4 pb-12 lg:pb-28 items-center"> 
+        <div className="lg:px-32 px-4 pb-12 lg:pb-28 items-center 2xl:container"> 
         <div className="grid grid-cols-12">
             <div className="col-span-12 lg:col-span-7 mt-10 ">
             <h2 className="font-bold text-2xl mb-10 leading-tight text-center lg:text-left  lg:text-5xl">People's Feedbck about JobNow!</h2>
