@@ -1,5 +1,5 @@
 const Section7 = () => { return (
-    <div className="text-white">
+    <div className="text-white 2xl:container 2xl:mx-auto">
       <div
         className="absolute left-[8.333333%] top-auto bg-footergreen rounded-xl w-10/12 z-20"
       >

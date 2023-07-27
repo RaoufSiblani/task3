@@ -28,7 +28,7 @@ const Section2 = () => {
     <div className="lg:mt-20 mt-5 w-full lg:px-16 px-5">
       <h2 className="font-bold text-4xl lg:text-5xl mt-10">How it works</h2>
 
-      <div className="flex items-center 2xl:container">
+      <div className="flex items-center 2xl:container 2xl:mx-auto">
         <div className="w-full lg:my-14 lg:w-7/12">
           <p className="text-left text-xl lg:text-2xl text-textgray py-6 lg:py-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non
