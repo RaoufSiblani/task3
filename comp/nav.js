@@ -16,7 +16,7 @@ const NavBar = () => {
         <a href="#" className="text-black font-semibold text-xl hidden xl:block">Home</a>
         <a href="#" className="text-black font-semibold text-xl hidden xl:block">Job</a>
         <a href="#" className="text-black font-semibold text-xl hidden xl:block">About Us</a>
-        <a href="#" className="text-black font-semibold text-xl hidden xl:block">Contact</a>
+        <a href="#" className="text-black font-semibold text-xl hidden xl:block ">Contact</a>
       </div>
       
       <div className="items-center hidden xl:flex">

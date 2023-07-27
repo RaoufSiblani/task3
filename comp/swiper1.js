@@ -34,7 +34,7 @@ const Swiper1 = () => {
   const slidesToShow = isSmallScreen ? slidesPerView : 1;
 
   return (
-    <div>
+    <div className="lg:py-5">
       <Swiper slidesPerView={slidesToShow} spaceBetween={80} >
         {widgetData.map((widget, index) => (
           <SwiperSlide key={index}>
