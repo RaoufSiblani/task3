@@ -1,7 +1,7 @@
 const Section7 = () => { return (
     <div className="text-white 2xl:container 2xl:mx-auto">
       <div
-        className="absolute left-[8.333333%] top-auto bg-footergreen rounded-xl w-10/12 z-20"
+        className="absolute left-[16.666666%] top-auto bg-footergreen rounded-xl w-8/12 z-20"
       >
         <div className="flex flex-col justify-center items-center">
           <h3
