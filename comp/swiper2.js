@@ -29,7 +29,7 @@ const Swiper2 = () => {
     };
   }, []);
 
-  const slidesPerView = isLargeScreen ? 2.7 : 2.3;
+  const slidesPerView = isLargeScreen ? 2.3 : 2;
   const SlidesOnScreen = isMidScreen ? slidesPerView :1.7;
   const slidesToShow = isSmallScreen ? SlidesOnScreen : 1;
 
