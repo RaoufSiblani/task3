@@ -5,7 +5,7 @@ const Section4 = () => {
   
   return (
     <div className="bg-maingreen bg-opacity-5">
-      <div className="items-center py-28 2xl:container 2xl:mx-auto">
+      <div className="items-center py-10 2xl:container 2xl:mx-auto">
       <h2 className="font-bold text-3xl lg:text-5xl mt-10 leading-tight text-center mx-16 lg:mx-32">Popular Job Categories</h2>
       <p className="lg:text-3xl text-lg text-textgray text-center mt-10 mx-16 lg:mx-32">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non
