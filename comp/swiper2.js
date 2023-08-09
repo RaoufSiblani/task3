@@ -29,14 +29,14 @@ const Swiper2 = () => {
     };
   }, []);
 
-  const slidesPerView = isLargeScreen ? 2.5 : 2.3;
+  const slidesPerView = isLargeScreen ? 2.3 : 2.3;
   const SlidesOnScreen = isMidScreen ? slidesPerView :1.7;
   const slidesToShow = isSmallScreen ? SlidesOnScreen : 1;
 
 
   return (
     <div  className="py-10">
-    <Swiper slidesPerView={slidesToShow} spaceBetween={20}>
+    <Swiper slidesPerView={slidesToShow} spaceBetween={40}>
       {widgetData.map((widget, index) => (
         <SwiperSlide key={index}>
           <Wid3

@@ -8,7 +8,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex xl:px-5 font-poppins items-center xl:py-20 py-8 bg-backgray xl:justify-between xl:bg-transparent 2xl:container ">
+    <nav className="flex xl:px-5 font-poppins items-center xl:py-20 py-8 bg-backgray xl:justify-between xl:bg-transparent 2xl:container">
       <div className="items-center flex justify-center w-full xl:w-7/12 xl:justify-between">
       <a href="/">
   <img src="/images/logo.png" alt="Logo" className="xl:h-12 h-7" />
