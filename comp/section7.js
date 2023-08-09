@@ -68,7 +68,7 @@ const Section7 = () => { return (
   </div>
   <div className=" bg-maingreen">
   <div className="lg:grid grid-cols-12  py-32 hidden 2xl:container 2xl:mx-auto">
-    <div className=" col-span-4 mt-40 pr-48 pl-6">
+    <div className=" col-span-4 mt-40 pr-48 pl-16">
     <a href="/">
         <img src="/images/logow.png" alt="Logo" className=" w-3/4" />
       </a>

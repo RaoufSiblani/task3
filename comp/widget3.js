@@ -17,7 +17,7 @@ const Wid3 = ({ imageSrc, heading, company }) => {
           <p className="text-xs lg:text-base">Full Time</p>
         </div>
       </div>
-      <p className="text-maingreen text-xl lg:text-2xl pb-2">Apply Now &gt;</p>
+      <a href="/" className="text-maingreen text-xl lg:text-2xl pb-2">Apply Now &gt;</a>
     </div>
   );
 };

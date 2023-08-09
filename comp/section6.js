@@ -3,12 +3,12 @@ const Section6 = () => {
         <div className="lg:px-32 px-4 pb-12 lg:pb-28 items-center 2xl:container 2xl:mx-auto"> 
         <div className="grid grid-cols-12">
             <div className="col-span-12 lg:col-span-7 mt-10 ">
-            <h2 className="font-bold text-2xl mb-10 leading-tight text-center lg:text-left  lg:text-5xl">People's Feedbck about JobNow!</h2>
+            <h2 className="font-bold text-2xl mb-10 leading-tight text-center lg:text-left  lg:text-4xl">People's Feedbck about JobNow!</h2>
             <p className="text-lg lg:text-2xl text-textgray text-center lg:text-left lg:mb-16 mb-8 lg:pr-28">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non
           orci euismod vestibulum vitae ut ex.
         </p>
-        <p className="text-xl lg:text-3xl  text-center lg:text-left  lg:pr-28">
+        <p className="text-xl lg:text-2xl  text-center lg:text-left  lg:pr-28">
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus non
           orci euismod vestibulum vitae ut ex. Quisque ut arcu at lectus tristique
           auctor sit amet at turpis."

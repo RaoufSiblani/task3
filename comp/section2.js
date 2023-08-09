@@ -26,7 +26,7 @@ const Section2 = () => {
 
   return (
     <div className="lg:mt-20 mt-5 w-full lg:px-16 px-5 2xl:container 2xl:mx-auto">
-      <h2 className="font-bold text-4xl lg:text-5xl mt-10">How it works</h2>
+      <h2 className="font-bold text-2xl lg:text-4xl mt-10">How it works</h2>
 
       <div className="flex items-center ">
         <div className="w-full lg:my-14 lg:w-7/12">
