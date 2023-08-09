@@ -11,7 +11,7 @@ const NavBar = () => {
     <nav className="flex xl:px-5 font-poppins items-center xl:py-20 py-8 bg-backgray xl:justify-between xl:bg-transparent 2xl:container ">
       <div className="items-center flex justify-center w-full xl:w-7/12 xl:justify-between">
       <a href="/">
-  <img src="/images/logo.png" alt="Logo" className="xl:h-14 h-7" />
+  <img src="/images/logo.png" alt="Logo" className="xl:h-12 h-7" />
 </a>
         <a href="#" className="text-black font-semibold text-xl hidden xl:block">Home</a>
         <a href="#" className="text-black font-semibold text-xl hidden xl:block">Job</a>
